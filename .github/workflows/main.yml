@@ -35,4 +35,5 @@ jobs:
         -e BING_COOKIE="${{ secrets.BING_COOKIE }}" \
         -e BING_SITE_KEY="${{ secrets.BING_SITE_KEY }}" \
         -e BING_API_KEY="${{ secrets.BING_API_KEY }}" \
+        -e DATABASE_URL="${{ secrets.DATABASE_URL }}" \
         ghcr.io/hoangweb/autoindex:latest
